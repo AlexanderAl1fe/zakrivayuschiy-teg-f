@@ -2,10 +2,10 @@
 
 :root.theme-light {
   --page-background: #fff;
-  --background-image: url(../images/light-background.png);
-  --background-color: #d3d3d3;
-  --background-color-start: #e7e7e7;
-  --background-color-end: #1a1a1a;
+  --bg-gradient-image: 
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
   --title-font-weight: "wght" 700;
   --text-font-weight: "wght" 400;
   --header-background: var(--page-background);
@@ -17,10 +17,10 @@
 
 :root.theme-dark {
   --page-background: #000;
-  --background-image: url(../images/dark-background.png);
-  --background-color: var(--page-background);
-  --background-color-start: #007f0c;
-  --background-color-end: #004306;
+  --bg-gradient-image: 
+    repeating-linear-gradient(90deg, #000 0 2px,rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #007f0c 0%, #004306 100%);
   --title-font-weight: "wght" 785;
   --text-font-weight: "wght" 465;
   --header-background: var(--page-background);
@@ -34,10 +34,10 @@
 @media (prefers-color-scheme: light) {
   :root {
     --page-background: #fff;
-    --background-image: url(../images/light-background.png);
-    --background-color: #d3d3d3;
-    --background-color-start: #e7e7e7;
-    --background-color-end: #1a1a1a;
+    --bg-gradient-image: 
+      repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+      repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+      linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
     --title-font-weight: "wght" 700;
     --text-font-weight: "wght" 400;
     --header-background: var(--page-background);
@@ -51,10 +51,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --page-background: #000;
-    --background-image: url(../images/dark-background.png);
-    --background-color: var(--page-background);
-    --background-color-start: #007f0c;
-    --background-color-end: #004306;
+    --bg-gradient-image: 
+      repeating-linear-gradient(90deg, #000 0 2px,rgb(0 0 0 / 0) 2px 4px),
+      repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+      linear-gradient(180deg, #007f0c 0%, #004306 100%);
     --title-font-weight: "wght" 785;
     --text-font-weight: "wght" 465;
     --header-background: var(--page-background);

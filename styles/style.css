@@ -6,7 +6,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   color: var(--text-color);
-  background: var( --background-image);
+  background: var( --bg-gradient-image);
   background-attachment: fixed;
   background-size: cover;
 }

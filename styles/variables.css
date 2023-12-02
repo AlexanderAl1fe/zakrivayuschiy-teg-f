@@ -5,10 +5,10 @@
   --fantasy-font-family: "Press Start 2P", fantasy;
   --heart-color: #ff0000;
   --page-background: #000;
-  --background-image: url(../images/dark-background.png);
-  --background-color: var(--page-background);
-  --background-color-start: #007f0c;
-  --background-color-end: #004306;
+  --bg-gradient-image: 
+    repeating-linear-gradient(90deg, #000 0 2px,rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(180deg, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #007f0c 0%, #004306 100%);
   --title-font-weight: "wght" 785;
   --text-font-weight: "wght" 465;
   --header-background: var(--page-background);
